@@ -348,4 +348,5 @@ if option == "Overall Analysis":
     fig7 = px.bar(top_investors, x=top_investors.index, y=top_investors.values, title="Top 10 Investors by Number of Investments",
                 labels={'x': 'Investor', 'y': 'Investment Count'})
     st.plotly_chart(fig7, use_container_width=True)
+    
 
